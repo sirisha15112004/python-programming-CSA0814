@@ -1,0 +1,6 @@
+List_value=[20,30,40,25,10]
+List_val.sort()
+Print(“the first largest element : “,list_value[n])
+Print(“the second largest element : “,list_value[n-1])
+Output: 40
+        30
