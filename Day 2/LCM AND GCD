@@ -1,0 +1,8 @@
+import math
+a=4
+b=6
+v=3
+print(math.gcd(a,b,c))
+print(math.lcm(a,b,c))
+output:1
+        12
