@@ -1,0 +1,12 @@
+sum=0
+while true:
+   a=5
+   if a==-1:
+       break
+sum=sum+a
+avg=sum/2
+print(sum)
+print(avg)
+output:5
+      5
+       2.5
