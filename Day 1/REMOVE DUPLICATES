@@ -1,0 +1,4 @@
+List1=[1,2,1,2,3,4]
+List2=[5,6,1,1,2,2]
+Print(list(set(list1)  ^ set(list2)))
+Output:[3,4,5,6]
