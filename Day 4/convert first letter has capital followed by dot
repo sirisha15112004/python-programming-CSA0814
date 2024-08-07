@@ -1,0 +1,6 @@
+S=”he is a good teacher”
+Words=s. split()
+S=[word[0].upper() for word in words]
+Result=”.”.join(s)
+Print(result)
+Output: H.I.A.G.T
