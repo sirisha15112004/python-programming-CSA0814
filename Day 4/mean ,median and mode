@@ -1,0 +1,8 @@
+From statistics import mean, median, mode
+Numbers=[1,2,2,3,4,5,6]
+Print(mean(numbers))
+Print(median (numbers))
+Print(mode(numbers))
+Output:3.2857
+          3
+          2
