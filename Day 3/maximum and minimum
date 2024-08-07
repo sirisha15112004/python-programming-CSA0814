@@ -1,0 +1,6 @@
+arr=[12,45,2,99,10]
+Print(“maximum: “,max(arr))
+Print(“minimum: “,min(arr))
+Output: maximum:99
+               minimum:2
+
