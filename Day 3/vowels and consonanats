@@ -1,0 +1,13 @@
+Str1=”Sirisha”
+Vowels=0
+Consonants=0
+for i in str1:
+      If(i==”a” or i==”e” or i==”i” or  i==”o” or i==”u”
+      Or  i==”A” or i==”E” or i==”I” or  i==”O” or i==”U”):
+               Vowels=vowels+1
+     Else:
+              Consonants=Consonants+1
+Print(“total number of vowels: “,vowels)
+Print(“total number of consonants: “,consonants)
+Output: total number of vowels:3
+               total number of consonants:4
