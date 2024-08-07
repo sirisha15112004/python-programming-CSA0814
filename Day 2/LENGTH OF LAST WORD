@@ -1,0 +1,4 @@
+S=”ravi is playing”
+Length=len(s.split()[-1])
+Print(length)
+Output:7
