@@ -1,0 +1,14 @@
+m=900
+n=937
+For i in range (m,n+1):
+      If i>1:
+         for j in range(2,i):
+              if(i%j==0):
+                  break
+          else:
+              Print(i)
+Output:9 0 7
+              9 1 1
+              9 1 9
+             9 2 9
+            9 3 7
