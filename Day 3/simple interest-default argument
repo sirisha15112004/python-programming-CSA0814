@@ -1,0 +1,5 @@
+Def simple_interest(p,r=5,t=1):
+     Si=(p*r*t)/100
+      Return si
+      Print(“the simple interest is”,simple_interest(p,r=5,t=1))
+Output:the simple interest is 500.0
