@@ -1,0 +1,11 @@
+num=2
+if num>1:
+    For i in range(2,num):
+         If(num%i)==0:
+              Print(num,”is a composite number”)
+              break
+     else:
+         print(num,”is a prime number”)
+elseif num==0 or 1:
+     print(num,”is neither a prime number or composite number”)
+output:2  is a prime number.
