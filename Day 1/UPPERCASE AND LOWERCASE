@@ -1,0 +1,14 @@
+name=”ravi is sleeping”
+Print(name.upper())
+Print(name.lower())
+Print(len(name.spilt())
+Words=name.split(“-“)
+Count=0
+For i in words:
+      if list(i)[0].lower()==”s”:
+           Count+=1
+Print(count)
+Output: RAVI IS SIEEPING
+               ravi is sleeping
+              4
+              1
