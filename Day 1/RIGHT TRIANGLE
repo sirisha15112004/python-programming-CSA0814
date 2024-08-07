@@ -1,0 +1,11 @@
+n=5
+For i in range(0,n): 
+     For j in range(0,i+1):
+          Print(“*”,end=” “)
+      Print()   
+Output:           
+                  *
+                  **
+                  ***
+                  ****
+                  ***** 
