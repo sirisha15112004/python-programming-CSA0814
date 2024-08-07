@@ -1,0 +1,11 @@
+from datetime import datetime, timedelta
+def first_monday_after(date_str):
+    date = datetime.strptime (date_ str, "%Y-%m-%d")
+    days_until_monday = (7 - date. weekday()) % 7
+    if days_until_monday == 0:
+        days_until_monday = 7
+    return (date + timedelta(days=days_until_monday)).strftime("%Y-%m-%d")
+input_date = “2024-04-07”
+print(f" First Monday after {input_ date} is {first_ Monday_ after(input_date)}.")
+output:2024-05-06
+6.sum of series 1!/1+2!/2+3!/
