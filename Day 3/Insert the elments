@@ -1,0 +1,4 @@
+My_list=[1,2,3,4]
+My_list.insert(3,10)
+Print(my_list)
+Output:[1,2,3,10,4]
