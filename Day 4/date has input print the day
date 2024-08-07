@@ -1,0 +1,6 @@
+Import calendar
+Year, month, date =2024,8,7
+Day_ index= calendar. weekday[year, month, day]
+Day_ name = calendar. day_ name [day_ index]
+Print(day_name0
+Output: Wednesday
