@@ -1,0 +1,7 @@
+Import numpy as np
+a=[[10,2,3],[4,5,6],[7,8,9]]
+b=np.asarray(a)
+print(“diagonal (sum): “,np.trace(b))
+print(“diagonal(elements): “,np.diagonal(b))
+output:diagonal(sum)=27
+              diagonal(elements0=[10,5,12]
