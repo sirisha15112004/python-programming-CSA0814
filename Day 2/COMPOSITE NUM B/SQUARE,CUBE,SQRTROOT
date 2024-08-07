@@ -1,0 +1,12 @@
+Import math
+a=4
+b=3.5
+square=a**2,b**2
+cube=a**3,b**3
+print(square)
+print(cube)
+print(math.sqrt(a))
+print(math.sqrt(b))
+output:16     12.25
+               64     42.875
+                2.0     1.8708
