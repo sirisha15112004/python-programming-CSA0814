@@ -1,0 +1,12 @@
+def most_and_least_significant_digit(number):
+    number = abs(number)
+    number_str = str(number)
+    most_significant_digit = number_str[0]
+     least_significant_digit = number_str[-1]
+    return most_significant_digit, least_significant_digit
+number = 1.2378
+most_digit, least_digit = most_and_least_significant_digit(number)
+print(f"Most Significant Digit: {most_digit}")
+print(f"Least Significant Digit: {least_digit}")
+output:1
+             8
