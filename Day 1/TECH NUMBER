@@ -1,0 +1,11 @@
+num=2025
+first_half=int(num%100)
+print(first_half)
+second_half=num/100
+print(second_half)
+product=(first_half+second_half)*( =(first_half+second_half)
+if (product==num):
+     print(“the number is tech:  ”,+str(num))
+else:
+    print(“the number is not a tech:  ”,+str(num))
+output:the number is tech :2025
