@@ -1,0 +1,21 @@
+def is_smith_number(n):
+    def prime_factors_sum(num):
+        i = 2
+        factors_sum = 0
+        while i * i <= num:
+            while num % i == 0:
+                num //= i
+                factors_sum += sum(int(digit) for digit in str(i))
+            i += 1
+        if num > 1:
+            factors_sum += sum(int(digit) for digit in str(num))
+        return factors_sum
+    def digits_sum(num):
+        return sum(int(digit) for digit in str(num))
+    return prime_factors_sum(n) == digits_sum(n)
+number = 666
+if is_smith_number(number):
+    print(f"{number} is a Smith number.")
+else:
+    print(f"{number} is not a Smith number.")
+output:666 is a smith number
