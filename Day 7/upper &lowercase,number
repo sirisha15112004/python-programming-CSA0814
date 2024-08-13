@@ -1,0 +1,11 @@
+inputs = []
+while True:
+    user_input = input("Enter uppercase letters, lowercase letters, or numbers (enter '*' to stop): ")
+    if user_input == '*':
+        break
+    inputs.append(user_input)
+print("You entered:", inputs)
+output:
+ravi
+sirisha
+["ravi","sirisha"]
