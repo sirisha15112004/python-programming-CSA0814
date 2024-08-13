@@ -1,0 +1,19 @@
+def isIso(a, b):
+    m = {}
+    r = {}
+    for i, c in enumerate(a):
+        if c in m:
+            if b[i] != m[c]:
+                return False
+        else:
+            m[c] = b[i]
+        if b[i] in r:
+            if c != r[b[i]]:
+                return False
+        else:
+            r[b[i]] = c
+    return True
+output:
+print(isIso('egg', 'add'))
+print(isIso('foo', 'bar'))
+print(isIso('paper', 'title'))
