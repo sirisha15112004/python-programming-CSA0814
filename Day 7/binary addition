@@ -1,0 +1,11 @@
+def binary_addition(bin1, bin2):
+    num1 = int(bin1, 2)
+    num2 = int(bin2, 2)
+    sum_num = num1 + num2
+    return bin(sum_num)[2:]
+binary1 = "1010"
+binary2 = "1101"
+result = binary_addition(binary1, binary2)
+print(f"The sum of {binary1} and {binary2} is {result}")
+output:
+The sum of 1010 and 1101 is 10111
