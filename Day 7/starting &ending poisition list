@@ -1,0 +1,14 @@
+def find_positions(lst, target):
+    start = -1
+    end = -1
+    for i in range(len(lst)):
+        if lst[i] == target:
+            if start == -1:
+                start = i
+            end = i
+    return start, end
+my_list = [1, 2, 3, 4, 2, 5, 2]
+target_value = 2
+positions = find_positions(my_list, target_value)
+print(f"Starting position: {positions[0]}, Ending position: {positions[1]}")
+output:Starting position: 2, Ending position: 6
