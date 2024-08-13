@@ -1,0 +1,8 @@
+def combine_strings(str1,str2):
+    combined=" ".join(a+b for a,b in zip(str1,str2))
+    return combined
+str1="hello"
+str2="world"
+result=combine_strings(str1,str2)
+print(result)
+output:hw eo lr ll od
