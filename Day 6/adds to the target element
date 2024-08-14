@@ -1,0 +1,14 @@
+def find_pairs(nums, target):
+    pairs = []
+    seen = set()
+    for num in nums:
+        complement = target - num
+        if complement in seen:
+            pairs.append((complement, num))
+        seen.add(num)
+     return pairs
+numbers = [1, 2, 3, 4, 5]
+target_sum = 5
+result = find_pairs(numbers, target_sum)
+print(result)
+output:[(2, 3), (1, 4)]
