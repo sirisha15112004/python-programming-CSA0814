@@ -1,0 +1,10 @@
+def needle_in_hashtag(needle,hashtag):
+   index=hashtag.find(needle)
+   if index==-1:      
+      return [-1]
+   return index
+needle="test"
+hashtag="this is a string"
+result = needle_in_hashtag(needle,hashtag)
+print(result)
+output:[-1]
