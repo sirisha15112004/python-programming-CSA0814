@@ -1,0 +1,8 @@
+from itertools import product
+n=2
+vowels='aeiou'
+result=[''.join(p)for p in product(vowels,repeat=n)]
+print(result)
+
+output:['aa', 'ae', 'ai', 'ao', 'au', 'ea', 'ee', 'ei', 'eo', 'eu', 'ia', 'ie',
+        'ii', 'io', 'iu', 'oa', 'oe', 'oi', 'oo', 'ou', 'ua', 'ue', 'ui', 'uo', 'uu']
