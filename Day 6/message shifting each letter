@@ -1,0 +1,13 @@
+def encode_message(message, shift):
+    encoded = ""
+    for char in message:
+        if char.isalpha():
+            shift_base = ord('A') if char.isupper() else ord('a')
+            encoded += chr((ord(char) - shift_base + shift) % 26 + shift_base)
+        else:
+            encoded += char
+    return encoded
+message = "Hello, World!"
+shift = 3
+encoded_message = encode_message(message, shift)
+print(encoded_message)
