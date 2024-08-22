@@ -1,0 +1,6 @@
+input_str="elephant"
+output_str=""
+for char in input_str:
+    output_str+=char+("^" if char.lower() in "aeiou" else "@")
+print(output_str)    
+output:e^l@e^p@h@a^n@t@
