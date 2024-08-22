@@ -1,0 +1,12 @@
+e=[10,20,30,40,50]
+l=[5,10,20,30,10]
+total=0
+current=0
+count=len(e)
+for i in range(count):
+    current+=e[i]
+    current-=l[i]
+    total+=current
+    avg=int(total/count)
+print(avg)  
+output:31
