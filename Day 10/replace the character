@@ -1,0 +1,11 @@
+from collections import Counter
+import string
+def replace_chars(s):
+    freq = Counter(s)
+    alphabet = string.ascii_lowercase
+    return ''.join(alphabet[(alphabet.index(c) + freq[c]) % 26] 
+    if c in alphabet
+    else c
+    for c in s
+)
+print(replace_chars("ghee")) 
