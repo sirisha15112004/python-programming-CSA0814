@@ -1,0 +1,13 @@
+from datetime import datetime, timedelta
+def month_info(year, month):
+    first_day = datetime(year, month, 1)
+    last_day = (datetime(year, month + 1, 1) - timedelta(days=1)).day
+    weekdays_count = sum(1 for day in range(1, last_day + 1)
+                         if datetime(year, month, day).weekday() < 5)
+    first_monday = first_day + timedelta(days=(7 - first_day.weekday() + 0) % 7)
+    print(f"Weekdays: {weekdays_count}")
+    print(f"First Monday: {first_monday.date()}")
+month_info(2023, 10)
+output:
+Weekdays: 22
+First Monday: 2023-10-02
