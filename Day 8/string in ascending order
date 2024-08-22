@@ -1,0 +1,4 @@
+s="python"
+sorted_string=" ".join(sorted(s))
+print(sorted_string)
+output:h n o p t y
