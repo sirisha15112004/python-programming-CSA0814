@@ -1,0 +1,9 @@
+ from itertools import product
+letter_dict={"key":["a","b"],"key2":["x","y"]}
+for comb in product(*letter_dict.values()):
+    print("".join(comb))
+output:
+ax
+ay
+bx
+by
