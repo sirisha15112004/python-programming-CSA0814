@@ -1,0 +1,3 @@
+number ="123"
+print("The sum of the digits is:", sum(int(digit) for digit in number if digit.isdigit()))
+output:6
