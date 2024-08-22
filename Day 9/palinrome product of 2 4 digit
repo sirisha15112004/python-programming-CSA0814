@@ -1,0 +1,10 @@
+def largest_palindrome():
+    max_palindrome = 0
+    for i in range(9999, 999, -1):
+        for j in range(i, 999, -1):
+            product = i * j
+            if str(product)==str(product)[::-1] and product>max_palindrome:
+                max_palindrome = product
+    return max_palindrome
+print(f"The largest palindrome is: {largest_palindrome()}")
+output:The largest palindrome is: 99000099
