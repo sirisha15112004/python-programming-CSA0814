@@ -1,0 +1,4 @@
+arr=[1,2,3,4,5,3]
+repeated_element=[x for x in set(arr) if arr.count(x)>1][0]
+print(repeated_element)
+output:3
