@@ -1,0 +1,10 @@
+import numpy as np
+a=[[1,2,3],[4,5,6],[7,8,9]]
+b=np.asarray(a)
+print("rows(sum):",np.sum(a,axis=1))
+print("column(sum):",np.sum(a,axis=0))
+print("diagonal(sum):",np.trace(b))
+output:
+rows(sum): [ 6 15 24]
+column(sum): [12 15 18]
+diagonal(sum): 15
