@@ -1,0 +1,4 @@
+def majority_element(nums):
+    return max(set(nums), key=nums.count)
+print(majority_element([3, 2, 3]))
+output:3
