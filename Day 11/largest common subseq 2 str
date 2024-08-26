@@ -1,0 +1,6 @@
+def lcs(s1, s2):
+    return [c for c in s1 if c in s2]
+s1 = ['a', 'b', 'c']
+s2 = ['a', 'c', 'd']
+print(lcs(s1, s2))
+output:['a', 'c']
