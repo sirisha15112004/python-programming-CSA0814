@@ -1,0 +1,20 @@
+def validate_age(age):
+    if age < 18 or age > 100:
+        raise InvalidAgeError(f"Provided age {age} is not valid. Age must be between 18 and 100.")
+try:
+    validate_age(15)  
+except InvalidAgeError as e:
+    print(e)
+try:
+    validate_age(25)  
+    print("Age is valid.")
+except InvalidAgeError as e:
+    print(e)
+try:
+    validate_age(105)  
+except InvalidAgeError as e:
+    print(e)
+output:
+Provided age 15 is not valid. Age must be between 18 and 100.
+Age is valid.
+Provided age 105 is not valid. Age must be between 18 and 100.
